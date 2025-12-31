@@ -1,6 +1,5 @@
 \documentclass[11pt,a4paper]{article}
-\usepackage{fontspec}
-\usepackage{xeCJK}
+\usepackage[UTF8, scheme=plain]{ctex}
 \usepackage{geometry}
 \usepackage{graphicx}
 \usepackage{hyperref}
@@ -9,8 +8,8 @@
 \usepackage{xcolor}
 \usepackage{titlesec}
 
-% Chinese font setup - using system fonts available on macOS
-% Use Heiti SC which is available on macOS
+% Chinese font setup - ctex handles this automatically
+% Override if needed
 \setCJKmainfont{Heiti SC}
 \setmainfont{Times New Roman}
 
