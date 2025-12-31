@@ -1,0 +1,393 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage{fontspec}
+\usepackage{xeCJK}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{fontawesome5}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{titlesec}
+
+% Chinese font setup - using system fonts available on macOS
+\setCJKmainfont{PingFang SC}[AutoFakeBold=true]
+\setmainfont{Times New Roman}
+
+% Page geometry
+\geometry{
+    left=1.5cm,
+    right=1.5cm,
+    top=1.5cm,
+    bottom=1.5cm
+}
+
+% Hyperref setup
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    urlcolor=blue,
+    citecolor=black
+}
+
+% Section formatting
+\titleformat{\section}
+{\large\bfseries}
+{}
+{0em}
+{}[\titlerule]
+
+\titlespacing*{\section}
+{0pt}
+{12pt}
+{8pt}
+
+% Remove page numbers
+\pagestyle{empty}
+
+\begin{document}
+
+% Header with name
+\begin{center}
+    {\Large \textbf{张益新 (Yixin Zhang)}}
+\end{center}
+\vspace{8pt}
+
+% Photo and contact info layout using tabular
+% \noindent
+% \begin{tabular}{@{}p{0.25\textwidth}@{\hspace{0.05\textwidth}}p{0.7\textwidth}@{}}
+% \raisebox{-0.5\height}{\includegraphics[width=0.23\textwidth]{image/algo_yuanrong/1756452787751.png}} &
+% \begin{tabular}[c]{@{}l@{}}
+% \faEnvelope \hspace{2pt} \href{mailto:zyxcambridge@gmail.com}{zyxcambridge@gmail.com} \\[8pt]
+% \faPhone \hspace{2pt} 17521398109 \\[8pt]
+% \faMapMarker \hspace{2pt} 上海
+% \end{tabular}
+% \end{tabular}
+
+% Contact info without photo
+\begin{center}
+\begin{tabular}[c]{@{}l@{}}
+\faEnvelope \hspace{2pt} \href{mailto:zyxcambridge@gmail.com}{zyxcambridge@gmail.com} \\[8pt]
+\faPhone \hspace{2pt} 17521398109 \\[8pt]
+\faMapMarker \hspace{2pt} 上海
+\end{tabular}
+\end{center}
+
+\vspace{12pt}
+
+\begin{center}
+    {\large \textbf{算法工程师}}
+\end{center}
+
+\vspace{8pt}
+\hrule
+\vspace{8pt}
+
+\section*{工作经历}
+
+\textbf{VLN部署算法工程师} | 某上市公司机器人子公司 | 2025.2 - 至今
+
+\vspace{4pt}
+\begin{itemize}[leftmargin=*,itemsep=2pt,parsep=1pt]
+    \item \textbf{项目名称：} 视觉语言导航（VLN）算法部署与自动跟随机器人系统
+    \item \textbf{核心算法能力：}
+    \begin{itemize}[leftmargin=*,noitemsep]
+        \item \textbf{长距离规划：} 支持超过150米的长距离导航，实现复杂环境下的路径规划
+        \item \textbf{零样本泛化：} 实现陌生环境自主适配能力，无需预训练即可在新场景中稳定运行
+        \item \textbf{密集障碍穿行：} 突破密集障碍物挑战，在障碍间距小于50cm的极端场景下仍可安全通过
+        \item \textbf{动态避障：} 实时感知并避开移动障碍物，保障机器人安全运行
+    \end{itemize}
+    \item \textbf{模型部署与优化：}
+    \begin{itemize}[leftmargin=*,noitemsep]
+        \item 在NVIDIA Thor平台上成功部署VLN模型，实现端到端推理优化
+        \item 通过模型量化、算子融合、内存优化等技术手段，显著降低时间延迟
+        \item 完成自动跟随机器人功能开发，实现稳定可靠的跟随性能
+        \item 成功完成42次关键测试验证，系统稳定性和可靠性达到量产标准
+    \end{itemize}
+    \item \textbf{项目战果：}
+    \begin{itemize}[leftmargin=*,noitemsep]
+        \item 在几乎"零基础"的条件下，独立完成软硬件全链路打通，包括Thor硬件配置、算法视频调优等全部工作
+        \item 成功实现跟随功能稳定运行，攻克了项目中最难啃的技术难题
+        \item 建立了完整的部署流程和验证标准，为后续规模化应用奠定基础
+    \end{itemize}
+    \item \textbf{12.18演示救场：}
+    \begin{itemize}[leftmargin=*,noitemsep]
+        \item 在演示现场语音网络全面崩溃的紧急情况下，凭借Plan B预案和完整的控制环境备份
+        \item 现场统筹协调团队，稳定团队心态，确保第二次演示顺利通过
+        \item 在高压环境下突破心理阈值，展现了出色的项目把控和应急处理能力
+    \end{itemize}
+    \item \textbf{项目规划与团队建设：}
+    \begin{itemize}[leftmargin=*,noitemsep]
+        \item 在demo成功运行的基础上，制定Thor项目规模化扩展计划
+        \item 申请团队扩充，规划基础工作分工，聚焦核心技术攻坚
+        \item 从"单兵作战"向"集团军冲锋"转变，争取更大的技术突破和商业价值
+    \end{itemize}
+\end{itemize}
+
+\textbf{深度学习算法工程师} | 安波福中央电气（上海）有限公司 | 2024.8 - 2025.2
+
+\vspace{4pt}
+\begin{itemize}[leftmargin=*,itemsep=2pt,parsep=1pt]
+    \item \textbf{项目名称：} 通用障碍物感知算法研发与端到端量产预研
+    \item \textbf{模型部署工作分层：}
+    \begin{itemize}[leftmargin=*,noitemsep]
+        \item 部署一个网络
+        \item 部署多个网络，在一个芯片上进行性能优化：
+        \begin{itemize}[leftmargin=*,noitemsep]
+            \item 2个backbone + 3个head，多任务流水线
+            \item 共享内存和队列，instance bank
+        \end{itemize}
+        \item 统一适配多个芯片框架（GPU+ASIC+FPGA）：
+        \begin{itemize}[leftmargin=*,noitemsep]
+            \item 多芯片平台调度框架
+            \item 一套代码适配多个芯片
+        \end{itemize}
+    \end{itemize}
+    \item 参与L2++无图端到端网络设计方案，主导通用障碍物OCC分支的网络结构设计和优化
+    \item 负责芯片选型，完成三种芯片的benchmark测试，设计端到端网络多任务调度框架
+    \item 建立部署工作标准SOP和work flow，独立完成OD和OCC分支在2种芯片的AI模型部署
+    \item \textbf{异步调度:} 设计异步流水线，实现CPU和多个AI加速核心（NPU/VP）最大限度重叠工作，缩短总体完成时间
+    \item \textbf{奔向空闲:} 将1000ms任务压缩到28ms（14ms*2），使芯片更快进入低功耗idle状态
+    \item \textbf{系统级优化 - 多任务调度框架:} 设计串行、并行或流水线并行的Pipeline编排多个模型执行顺序
+    \begin{itemize}[leftmargin=*,noitemsep]
+        \item 车间A (Stage 1): 特征提取中心，配备两台并行机器分别计算Backbone\_1 (BEV)和Backbone\_2 (Temporal)
+        \item 车间B (Stage 2): 感知分析部，配备两台并行机器分别计算Head\_1 (OD)和Head\_2 (Map)
+        \item 车间C (Stage 3): 决策融合站，负责最后的Head\_3 (Predict)计算
+    \end{itemize}
+    \item \textbf{部署与验证工作流 (量产规范):}
+    \begin{itemize}[leftmargin=*,noitemsep]
+        \item 模型导出与分段: 将PyTorch模型导出为ONNX并按DAG节点分割为独立文件(backbone1.onnx, head1.onnx等)
+        \item 模型编译: 使用硬件厂商工具链将ONNX编译为二进制bin文件，完成算子融合与量化优化
+        \item 分阶段验证:
+        \begin{itemize}[leftmargin=*,noitemsep]
+            \item IO对齐: 确保部署程序与仿真脚本输入逐比特一致
+            \item 单节点验证: 对比bin文件输出与PC端ONNX结果
+            \item 多帧端到端对齐: 验证完整APP业务指标(mAP, IoU)与黄金参考模型一致性
+        \end{itemize}
+        \item \textbf{最终集成与交付}: 封装为符合规范的5个核心API(Init/Run/Release/GetResult/GetStatus)
+        \item 核心优化指标: 时间延迟、吞吐量、内存带宽(减少占用)、功耗(W4A4)、算力占用(软硬一体)
+        \item 适配车机芯片: 英伟达Orin、地平线J5/J6、 CV3
+    \end{itemize}
+\end{itemize}
+
+\textbf{模型部署负责人/高级软件架构} | 图达通智能科技(上海)有限公司 | 2022.6-2024.04
+
+\vspace{4pt}
+\begin{itemize}[leftmargin=*,itemsep=2pt,parsep=1pt]
+    \item 招聘组建高效的深度学习部署团队，完善算法工程落地流程
+    \item 基于Jetson平台实现AI LiDAR模型实时推理，时间延迟降低4倍
+    \item 开发ADAS代码补全VSCode插件，提升自动驾驶算法开发效率
+    \item 大模型推理部署探索，成功部署Ollama、llama.cpp、vllm、TensorRT-LLM、mlc-llm等框架
+    \item 在Mac M1上成功运行yi-34B模型，在Android平台使用mlc-llm运行llama3-8b模型
+    \item 基于NVIDIA Drive Sim完善MLOps流程，产生10W帧仿真数据集
+    \item 实现模型仿真数据和真实数据的联合训练，精度提高10个百分点
+    \item \textbf{【模型部署】}
+    \begin{itemize}[leftmargin=*,noitemsep]
+        \item 性能分析工具应用：使用Nsight Systems和Nsight Compute定位部署瓶颈，解决关键性能卡点
+        \item lidar车端框架构建：实现激光雷达点云检测与语义分割网络部署迭代，包括rangeimage和pillar voxel网络实时推理，设计端到端统一检测分割框架
+        \item NVIDIA技术协作：与Jetson团队建立直接沟通渠道，分析模型瓶颈并获取优化支持，通过任务依赖关系优化将整体延迟降低75\%（四分之一）
+        \item 地平线生态对接：为地平线J5平台争取硬件和软件开发支持，完成感知算法全量移植
+        \item 技术难题突破：与SPConv核心开发团队协作，解决自定义稀疏卷积算子的部署挑战
+    \end{itemize}
+\end{itemize}
+
+\textbf{高级算法工程师} | 上海雪湖科技有限公司 | 2019.05-2022.05
+
+\vspace{4pt}
+\begin{itemize}[leftmargin=*,itemsep=2pt,parsep=1pt]
+    \item 从0到1搭建算法团队，构建V2X感知算法工程化落地流程
+    \item 设计FPGA混合量化方案，精细化到乘法和加法运算级别
+    \item 成功量产MEC设备100台以上，软硬一体变现500多万，服务近10家客户
+    \item \textbf{【难点与解决方案】}
+    \begin{itemize}[leftmargin=*,noitemsep]
+        \item 精度损失问题：针对量化导致的30个点精度损失，提出混合量化策略
+        \item 量化方案：实现PTQ(Post-training Quantization)，参考QAT(Quantization-aware Training)全流程
+        \item 量化算法对比：系统评估minmax、KL散度和MSE等量化方法的误差分布特性
+        \item 工具开发：自主研发精度比对工具，可视化不同量化参数下的误差热力图
+        \item 训练推理一致性：从量化原理公式出发，解决训练/推理精度偏差问题
+        \item 客户信任构建：通过理论推导和实测数据双重验证，解决时间延迟质疑
+    \end{itemize}
+    \item \textbf{【实现方法】}
+    \begin{itemize}[leftmargin=*,noitemsep]
+        \item 核心优化流程：构建哈希表$\to$生成Rulebook$\to$Gather输入特征成稠密矩阵M\_in$\to$执行GEMM$\to$Scatter输出结果
+    \end{itemize}
+    \item \textbf{【lidar MLOPS】}
+    \begin{itemize}[leftmargin=*,noitemsep]
+        \item 分层策略：关键特征提取层保留浮点精度，分类头和后处理层量化至INT8
+        \item 量化算法：采用KL散度校准方法，使用校准集进行数据分布匹配
+        \item 网络分解：将复杂卷积操作分解为基本乘加运算，适配FPGA整数计算架构
+        \item 基于ZCU104 IP域控制器构建深度学习部署流程，实现10倍速度提升
+    \end{itemize}
+    \item \textbf{【技术落地】}
+    \begin{itemize}[leftmargin=*,noitemsep]
+        \item 根据项目和现有公司解决方案创建V2X解决方案文档，提供现场解释，获得10+客户
+        \item 在项目现场进行现场开发，在中国各地城市实施10+试点项目
+        \item 推动FPGA lidar加速IP向速腾、禾赛、Ouster、Livox等激光雷达公司的适配
+    \end{itemize}
+    \item \textbf{【项目收入证明】}
+    \begin{itemize}[leftmargin=*,noitemsep]
+        \item 基于AMD Xilinx ZCU104大规模生产100+MEC设备，实现200万元+软硬件综合收入
+        \item 拥有近10个客户，建立长期合作关系
+    \end{itemize}
+\end{itemize}
+
+\textbf{算法工程师} | 深兰科技(上海)有限公司 | 2018.05 - 2019.02
+
+\vspace{4pt}
+\begin{itemize}[leftmargin=*,itemsep=2pt,parsep=1pt]
+    \item \textbf{汇报对象：} 技术经理
+    \item \textbf{基于关键点的目标检测算法工程落地：}
+    \begin{itemize}[leftmargin=*,noitemsep]
+        \item 实现基于OpenPose的人体关键点检测算法，自主完成C++推理流程
+        \item 算法改进包括高斯响应增强、Heatmap半径调整和中继监督机制
+        \item 创新实现基于峰值的NMS方法替代传统IoU方式
+    \end{itemize}
+    \item \textbf{模型部署与优化：}
+    \begin{itemize}[leftmargin=*,noitemsep]
+        \item 在P100 GPU上部署模型，单卡支持28个模型并行推理
+        \item 将OpenPose推理时延优化至500ms以内
+    \end{itemize}
+    \item \textbf{算法验证：}
+    \begin{itemize}[leftmargin=*,noitemsep]
+        \item 构建密集场景测试集，在复杂环境下达到99\%关键点识别准确率
+    \end{itemize}
+    \item \textbf{其他成果：}
+    \begin{itemize}[leftmargin=*,noitemsep]
+        \item 获得3项发明专利授权
+        \item 开发基于关键点的云端商品识别服务
+    \end{itemize}
+\end{itemize}
+
+\textbf{深度学习工程师} | 友邦网络科技有限公司 | 2017.12 - 2018.04
+
+\vspace{4pt}
+\begin{itemize}[leftmargin=*,itemsep=2pt,parsep=1pt]
+    \item \textbf{汇报对象：} 技术经理
+    \item \textbf{ADAS系统开发：}
+    \begin{itemize}[leftmargin=*,noitemsep]
+        \item 研发行人和车辆目标检测算法，结合图像分割技术实现车道线检测
+        \item 在RK3399等嵌入式平台进行网络优化，显著提升检测速度
+        \item 使用TensorFlow Lite进行Android端模型移植和量化优化
+    \end{itemize}
+    \item \textbf{人体姿态识别：}
+    \begin{itemize}[leftmargin=*,noitemsep]
+        \item 基于MobileNet架构实现轻量级人体关键点检测
+        \item 分别使用Caffe2和TensorFlow框架完成算法实现
+        \item 成功移植至Android设备，支持实时推理
+    \end{itemize}
+\end{itemize}
+
+
+\vspace{10pt}
+\rule{\textwidth}{1pt}
+\vspace{8pt}
+
+\section*{教育背景}
+
+\textbf{网络工程学士} | 北华航天工业学院 | 2010.09-2014.06
+
+\vspace{10pt}
+\rule{\textwidth}{1pt}
+\vspace{8pt}
+
+\section*{项目与成就}
+
+\textbf{【项目名称：通用障碍物感知算法研发与端到端量产预研】}
+
+\vspace{4pt}
+\begin{itemize}[leftmargin=*,itemsep=2pt,parsep=1pt]
+    \item \textbf{项目目标}：研发通用障碍物检测算法，基于物理规律（深度分布和语义约束）实现开放场景泛化感知，预研车规级低功耗平台（16W）端到端部署方案
+    \item \textbf{核心技术突破}：
+    \begin{itemize}[leftmargin=*,noitemsep]
+        \item 范式转变：从'学习物体形状'转向'验证物理规律'，通过深度分布建模与语义约束验证，实现'不识形状却感知存在'的泛化能力
+        \item 场景优化：强化建筑区域垂直边缘梯度约束，降低悬挂物误识别风险
+        \item 负障碍物检测：利用高度突变和点密度异常等几何特征，实现坑洼、沟渠等负障碍物识别
+    \end{itemize}
+    \item \textbf{核心挑战与解决方案}：
+    \begin{itemize}[leftmargin=*,noitemsep]
+        \item 挑战：端到端感知（OD+Map+Predict+Plan）计算量与16W功耗限制的矛盾
+        \item 解决方案：
+        \begin{itemize}[leftmargin=*,noitemsep]
+            \item 1) 模型轻量化：优化OD与Map模型参数结构
+            \item 2) 混合量化策略：FP16+INT8混合量化，结合离线初始化与在线校准，精度损失$<$2\%
+            \item 3) 算子定制：开发体素化、可变形聚合等关键算子，提升计算效率
+        \end{itemize}
+    \end{itemize}
+    \item \textbf{关键成果}：
+    \begin{itemize}[leftmargin=*,noitemsep]
+        \item 端到端推理速度提升10倍，成功部署至目标平台
+        \item 混合量化方法申请技术专利
+        \item 验证基于物理规律感知范式在开放场景的可行性
+    \end{itemize}
+    \item \textbf{前瞻性研究}：
+    \begin{itemize}[leftmargin=*,noitemsep]
+        \item 混合精度训练梯度不匹配问题解决方案
+        \item 端侧内存带宽限制下的算子融合方案
+    \end{itemize}
+\end{itemize}
+
+\textbf{【项目名称：lidar 推理框架】}
+
+\vspace{4pt}
+\begin{itemize}[leftmargin=*,itemsep=2pt,parsep=1pt]
+    \item \textbf{难点与解决方案}
+    \begin{itemize}[leftmargin=*,noitemsep]
+        \item \textbf{精度损失控制}：针对量化导致的30个点精度损失，提出混合量化策略
+        \item \textbf{量化方案实现}：搭建PTQ/QAT全流程，支持minmax、KL散度、MSE三种校准算法
+        \item \textbf{误差分析工具}：自主研发精度比对平台，可视化不同量化参数下的误差热力图
+        \item \textbf{训练推理一致性}：从量化原理公式出发，解决浮点/整数计算偏差问题
+        \item \textbf{客户信任构建}：通过理论推导+实测数据双重验证，将延迟降低至客户要求的1/3
+    \end{itemize}
+    \item \textbf{技术实现}
+    \begin{itemize}[leftmargin=*,noitemsep]
+        \item 核心优化流程：构建哈希表$\to$生成Rulebook$\to$Gather输入特征$\to$执行GEMM$\to$Scatter输出结果
+        \item 量化算法对比：系统评估三种方法在不同层的误差分布，选择最优组合策略
+    \end{itemize}
+    \item \textbf{商业价值}
+    \begin{itemize}[leftmargin=*,noitemsep]
+        \item 基于AMD Xilinx ZCU104大规模生产100+MEC设备
+        \item 实现200万元+软硬件综合收入，服务近10家客户
+        \item 量产陕重汽
+    \end{itemize}
+\end{itemize}
+
+\textbf{大模型微调与部署项目}
+
+\vspace{4pt}
+\begin{itemize}[leftmargin=*,itemsep=2pt,parsep=1pt]
+    \item 在AWS上部署Baichuan2模型为OpenAI兼容格式，实现Lora微调
+    \item 使用LLaMA-Factory在阿里云平台进行大模型微调与优化
+    \item 将Start Code模型部署至HuggingFace作为API服务
+    \item 参与NeurIPS 2025智能体工具增强推理Workshop，调用FDA、OpenTargets、PubMed等生物医学工具
+    \item 优化8B模型性能达到相当于671B模型水平
+\end{itemize}
+
+\vspace{10pt}
+\rule{\textwidth}{1pt}
+\vspace{8pt}
+
+\section*{学术与竞赛经历}
+
+\begin{itemize}[leftmargin=*,itemsep=2pt,parsep=1pt]
+    \item 2021年10月: CVPR Workshop - 3D目标检测算法（第九名）
+    \item 多次黑客马拉松获奖：
+    \begin{itemize}[leftmargin=*,itemsep=1pt]
+        \item 2023年10月: 百川黑客马拉松 - 美国中医获客Agent项目（特别奖）
+        \item 2023年9月: Google I/O Hackathon - Stable Diffusion计算共享（三等奖）
+        \item 2023年7月: 世界AI黑客马拉松 - 领导力追踪与训练（二等奖）
+        \item 2019年9月: AngelHack上海 - 领导力追踪与训练（一等奖）
+        \item 2017年7月: 全球AI黑客马拉松 - 假新闻检测（冠军）
+    \end{itemize}
+\end{itemize}
+
+\vspace{10pt}
+\rule{\textwidth}{1pt}
+\vspace{8pt}
+
+\section*{技术社区参与}
+
+\begin{itemize}[leftmargin=*,itemsep=2pt,parsep=1pt]
+    \item Google机器学习开发专家，连续5年每年举办4场技术讲座，影响11,874人
+\end{itemize}
+
+\end{document}
+
