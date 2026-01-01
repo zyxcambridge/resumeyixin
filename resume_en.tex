@@ -116,10 +116,14 @@
 \vspace{4pt}
 \begin{itemize}[leftmargin=*,itemsep=2pt,parsep=1pt]
     \item \textbf{Competition Achievement:} NeurIPS 2025 Agent Tool-Augmented Reasoning Workshop - CureBench International Agent Evaluation Competition Global 2nd Place (Top 2)
-    \item \textbf{Project Background:} Participated in NeurIPS 2025 top-tier conference Workshop, building professional Agent system in biomedical field
+    \item \textbf{Publication:} Co-first author of paper "CureAgent: A Training-Free Executor-Analyst Framework for Clinical Reasoning" (arXiv:2512.05576)
+    \item \textbf{Project Background:} Participated in NeurIPS 2025 top-tier conference Workshop, built professional Agent system in biomedical field. Addressed Context Utilization Failure in small LLM-based clinical agents by proposing Executor-Analyst Framework
     \item \textbf{Technical Architecture:} CureBench + TxAgent RL Framework - ART Training
     \item \textbf{Core Work:}
     \begin{itemize}[leftmargin=*,noitemsep]
+        \item Designed and implemented Executor-Analyst modular architecture, decoupling tool execution from clinical reasoning, mitigating reasoning deficits in monolithic models
+        \item Proposed Stratified Ensemble strategy, addressing information bottleneck by preserving evidentiary diversity
+        \item Discovered critical scaling insights including Context-Performance Paradox and Curse of Dimensionality in action spaces
         \item Built medication assistant agent using Agent and Test-time Scaling technologies
         \item Integrated biomedical tools (FDA, OpenTargets, PubMed) for agent tool-augmented reasoning
         \item Completed initial draft of book "Self-Evolving Agents - Architecture Practice of Dynamic Memory and Continuous Operation"
@@ -294,7 +298,12 @@
 
 \section*{Highlights \& Publications}
 
-\textbf{Publication:}
+\textbf{Publications:}
+\begin{itemize}[leftmargin=*,itemsep=2pt,parsep=1pt]
+    \item \textbf{CureAgent: A Training-Free Executor-Analyst Framework for Clinical Reasoning} (arXiv:2512.05576). Ting-Ting Xie, \textbf{Yixin Zhang}. NeurIPS 2025 Workshop - CURE-Bench Competition 2nd Place Solution. \href{https://arxiv.org/abs/2512.05576}{arXiv:2512.05576}
+\end{itemize}
+
+\textbf{Book:}
 \begin{itemize}[leftmargin=*,itemsep=2pt,parsep=1pt]
     \item Authored book "Self-Evolving Agents - Architecture Practice of Dynamic Memory and Continuous Operation", currently completed initial draft and entered publisher's three-review and three-proofreading stage, planned to be published by Publishing House of Electronics Industry
 \end{itemize}
@@ -369,15 +378,22 @@
     \end{itemize}
 \end{itemize}
 
-\textbf{[Project: NeurIPS 2025 CureBench Medical Agent System]}
+\textbf{[Project: NeurIPS 2025 CureBench Medical Agent System (CureAgent)]}
 
 \vspace{4pt}
 \begin{itemize}[leftmargin=*,itemsep=2pt,parsep=1pt]
-    \item \textbf{Project Role:} NeurIPS 2025 Workshop Project Lead / Core Developer
-    \item \textbf{Project Background:} Participated in NeurIPS 2025 top-tier conference Workshop, built professional Agent system in biomedical field. Utilized Agent and Test-time Scaling technologies to build medication assistant agent.
+    \item \textbf{Project Role:} NeurIPS 2025 Workshop Project Lead / Core Developer, Co-first Author
+    \item \textbf{Project Background:} Participated in NeurIPS 2025 top-tier conference Workshop, built professional Agent system in biomedical field. Addressed the \textbf{Context Utilization Failure} problem in current clinical agents built on small LLMs (e.g., TxAgent), where models successfully retrieve biomedical evidence but fail to ground their diagnosis in that information. Proposed the Executor-Analyst Framework that decouples syntactic precision of tool execution from semantic robustness of clinical reasoning.
     \item \textbf{Technical Architecture:} CureBench + TxAgent RL Framework - ART Training
-    \item \textbf{Core Technologies:}
     \begin{itemize}[leftmargin=*,noitemsep]
+        \item \textbf{Executor-Analyst Framework:} Modular architecture orchestrating specialized TxAgent Executors with long-context foundation model Analysts, mitigating reasoning deficits in monolithic models
+        \item \textbf{Stratified Ensemble Strategy:} Significantly outperforms global pooling by preserving evidentiary diversity, effectively addressing the information bottleneck
+        \item \textbf{Training-free Architectural Engineering:} Achieves state-of-the-art performance on CURE-Bench without expensive end-to-end finetuning
+    \end{itemize}
+    \item \textbf{Core Technical Breakthroughs:}
+    \begin{itemize}[leftmargin=*,noitemsep]
+        \item \textbf{Context-Performance Paradox:} Discovered that extending reasoning contexts beyond 12k tokens introduces noise that degrades accuracy
+        \item \textbf{Curse of Dimensionality in Action Spaces:} Expanding toolsets necessitates hierarchical retrieval strategies
         \item Integrated biomedical tools (FDA, OpenTargets, PubMed) for agent tool-augmented reasoning
         \item Implemented Test-time Scaling technology to improve agent performance during testing phase
         \item Conducted agent training and optimization based on reinforcement learning framework (TxAgent RL Framework)
@@ -385,7 +401,8 @@
     \item \textbf{Project Results:}
     \begin{itemize}[leftmargin=*,noitemsep]
         \item Achieved global 2nd place (Top 2) in CureBench International Agent Evaluation Competition
-        \item Successfully built practical biomedical field agent system
+        \item Published paper to arXiv (arXiv:2512.05576), code released open-source
+        \item Successfully built practical biomedical field agent system, providing scalable, agile foundation for next-generation trustworthy AI-driven therapeutics
     \end{itemize}
 \end{itemize}
 

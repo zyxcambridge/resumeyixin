@@ -129,10 +129,14 @@
 \vspace{4pt}
 \begin{itemize}[leftmargin=*,itemsep=2pt,parsep=1pt]
     \item \textbf{竞赛成就：} NeurIPS 2025智能体工具增强推理Workshop - CureBench国际智能体评测竞赛全球第二名（Top 2）
-    \item \textbf{项目背景：} 参与NeurIPS 2025顶级会议Workshop，构建生物医学领域专业Agent系统
+    \item \textbf{论文发表：} 作为共同第一作者发表论文"CureAgent: A Training-Free Executor-Analyst Framework for Clinical Reasoning" (arXiv:2512.05576)
+    \item \textbf{项目背景：} 参与NeurIPS 2025顶级会议Workshop，构建生物医学领域专业Agent系统。针对小规模LLM临床智能体的上下文利用失败问题，提出Executor-Analyst框架
     \item \textbf{技术架构：} CureBench + TxAgent RL Framework - ART Training
     \item \textbf{核心工作：}
     \begin{itemize}[leftmargin=*,noitemsep]
+        \item 设计并实现Executor-Analyst模块化架构，将工具执行与临床推理解耦，缓解单体模型的推理缺陷
+        \item 提出分层集成策略（Stratified Ensemble），通过保留证据多样性解决信息瓶颈问题
+        \item 发现上下文-性能悖论和动作空间维度诅咒等关键缩放洞察
         \item 利用Agent和Test-time Scaling技术构建用药助手智能体
         \item 调用FDA、OpenTargets、PubMed等生物医学工具进行智能体工具增强推理
         \item 完成《自进化智能体–动态记忆与持续运行的架构实践》一书初稿撰写
@@ -307,6 +311,11 @@
 
 \section*{核心成就与著作}
 
+\textbf{论文发表：}
+\begin{itemize}[leftmargin=*,itemsep=2pt,parsep=1pt]
+    \item \textbf{CureAgent: A Training-Free Executor-Analyst Framework for Clinical Reasoning} (arXiv:2512.05576). Ting-Ting Xie, \textbf{Yixin Zhang}. NeurIPS 2025 Workshop - CURE-Bench Competition 2nd Place Solution. \href{https://arxiv.org/abs/2512.05576}{arXiv:2512.05576}
+\end{itemize}
+
 \textbf{著作出版：}
 \begin{itemize}[leftmargin=*,itemsep=2pt,parsep=1pt]
     \item 撰写《自进化智能体–动态记忆与持续运行的架构实践》一书，目前已完成初稿并进入出版社三审三校阶段，计划由电子工业出版社出版
@@ -382,15 +391,22 @@
     \end{itemize}
 \end{itemize}
 
-\textbf{【项目名称：NeurIPS 2025 CureBench医药Agent系统】}
+\textbf{【项目名称：NeurIPS 2025 CureBench医药Agent系统（CureAgent）】}
 
 \vspace{4pt}
 \begin{itemize}[leftmargin=*,itemsep=2pt,parsep=1pt]
-    \item \textbf{项目角色：} NeurIPS 2025 Workshop项目负责人/核心开发者
-    \item \textbf{项目背景：} 参与NeurIPS 2025顶级会议Workshop，构建生物医学领域专业Agent系统。利用Agent和Test-time Scaling技术构建用药助手智能体。
+    \item \textbf{项目角色：} NeurIPS 2025 Workshop项目负责人/核心开发者、论文共同第一作者
+    \item \textbf{项目背景：} 参与NeurIPS 2025顶级会议Workshop，构建生物医学领域专业Agent系统。针对当前基于小规模LLM（如TxAgent）的临床智能体存在的\textbf{上下文利用失败（Context Utilization Failure）}问题，提出Executor-Analyst框架，将工具执行的语法精确性与临床推理的语义鲁棒性解耦。
     \item \textbf{技术架构：} CureBench + TxAgent RL Framework - ART Training
-    \item \textbf{核心技术：}
     \begin{itemize}[leftmargin=*,noitemsep]
+        \item \textbf{Executor-Analyst框架：} 模块化架构，将专门的TxAgent执行器（Executors）与长上下文基础模型分析师（Analysts）协同工作，缓解单体模型的推理缺陷
+        \item \textbf{分层集成策略（Stratified Ensemble）：} 通过保留证据多样性，显著优于全局池化，有效解决信息瓶颈问题
+        \item \textbf{训练无关架构工程：} 无需昂贵的端到端微调，在CURE-Bench上达到最先进性能
+    \end{itemize}
+    \item \textbf{核心技术突破：}
+    \begin{itemize}[leftmargin=*,noitemsep]
+        \item \textbf{上下文-性能悖论（Context-Performance Paradox）：} 发现推理上下文超过12k tokens会引入噪声导致准确性下降
+        \item \textbf{动作空间维度诅咒：} 工具集扩展需要分层检索策略
         \item 调用FDA、OpenTargets、PubMed等生物医学工具进行智能体工具增强推理
         \item 实现Test-time Scaling技术，提升智能体在测试阶段的性能
         \item 基于强化学习框架（TxAgent RL Framework）进行智能体训练与优化
@@ -398,7 +414,8 @@
     \item \textbf{项目成果：}
     \begin{itemize}[leftmargin=*,noitemsep]
         \item 在CureBench国际智能体评测竞赛中获得全球第二名（Top 2）
-        \item 成功构建了可实际应用的生物医学领域智能体系统
+        \item 发表论文至arXiv（arXiv:2512.05576），代码已开源
+        \item 成功构建了可实际应用的生物医学领域智能体系统，为下一代可信AI驱动治疗学提供可扩展、敏捷的基础
     \end{itemize}
 \end{itemize}
 
