@@ -1,0 +1,43 @@
+{
+  "job_info": {
+    "company": "NVIDIA",
+    "title": "Senior Software Engineer - Multi-Agent System - AV Infrastructure",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/details/Senior-Software-Engineer--Multi-Agent-System---AV-Infrastructure_JR2010348",
+    "location": "Shanghai, China / Santa Clara, CA",
+    "description": "\n                We are looking for a Senior Software Engineer to work on Multi-Agent System for Autonomous Vehicle Infrastructure.\n                Join NVIDIA's team to build next-generation AI agents for autonomous systems.\n                ",
+    "requirements": [
+      "Experience with AI Agent frameworks and multi-agent systems",
+      "Strong background in autonomous vehicle development",
+      "Proficiency in PyTorch, CUDA, and distributed systems",
+      "Experience with LLM and agent orchestration",
+      "Deep learning and machine learning expertise",
+      "Strong Python and C++ programming skills"
+    ],
+    "keywords": [
+      "AI Agent",
+      "Multi-Agent",
+      "Autonomous Vehicle",
+      "PyTorch",
+      "CUDA",
+      "LLM",
+      "Distributed Systems"
+    ]
+  },
+  "match_info": {
+    "match_score": 6,
+    "matched_strengths": [
+      "NeurIPS Competition",
+      "AI Agent Experience",
+      "NVIDIA Platforms",
+      "Model Optimization",
+      "LLM Deployment"
+    ],
+    "highlights": [
+      "NeurIPS 2025 CureBench Global 2nd Place - AI Agent development",
+      "CureAgent framework, Executor-Analyst architecture, tool-augmented reasoning",
+      "Deployed on Thor, Orin, Jetson platforms with 4x latency reduction",
+      "Quantization (PTQ/QAT), operator fusion, multi-task scheduling",
+      "Deployed Ollama, llama.cpp, vllm, TensorRT-LLM, mlc-llm"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "job_info": {
+    "company": "NVIDIA",
+    "title": "Developer Technology Engineer - AI",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/details/Developer-Technology-Engineer--AI_JR2000017",
+    "location": "Shanghai, China / Santa Clara, CA",
+    "description": "\n                Developer Technology Engineer focused on AI technologies.\n                Work on cutting-edge AI/ML solutions with NVIDIA's GPU computing platform.\n                ",
+    "requirements": [
+      "Deep learning and machine learning expertise",
+      "GPU computing and CUDA programming",
+      "Experience with LLM and transformer models",
+      "Strong Python and C++ skills",
+      "Model optimization and deployment experience"
+    ],
+    "keywords": [
+      "Deep Learning",
+      "Machine Learning",
+      "GPU",
+      "CUDA",
+      "LLM",
+      "Transformer",
+      "TensorRT"
+    ]
+  },
+  "match_info": {
+    "match_score": 3,
+    "matched_strengths": [
+      "NVIDIA Platforms",
+      "Model Optimization",
+      "AI Agent Experience",
+      "LLM Deployment"
+    ],
+    "highlights": [
+      "Deployed on Thor, Orin, Jetson platforms with 4x latency reduction",
+      "Quantization (PTQ/QAT), operator fusion, multi-task scheduling",
+      "CureAgent framework, Executor-Analyst architecture, tool-augmented reasoning",
+      "Deployed Ollama, llama.cpp, vllm, TensorRT-LLM, mlc-llm"
+    ]
+  }
+}

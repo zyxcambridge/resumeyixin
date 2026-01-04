@@ -1,0 +1,39 @@
+{
+  "job_info": {
+    "company": "Google DeepMind",
+    "title": "Research Scientist - AGI Safety",
+    "url": "https://careers.google.com/jobs/results/?q=AGI&location=United%20States",
+    "location": "Mountain View, CA / London, UK",
+    "description": "\n                Join DeepMind's AGI Safety team to ensure AI systems are aligned with human values.\n                Work on fundamental research in AI safety and alignment.\n                ",
+    "requirements": [
+      "PhD in ML, AI, or related field",
+      "Research experience in AI safety, alignment, or interpretability",
+      "Publications in top-tier venues",
+      "Strong theoretical and empirical research skills",
+      "Experience with large language models"
+    ],
+    "keywords": [
+      "AGI",
+      "AI Safety",
+      "AI Alignment",
+      "Research",
+      "LLM",
+      "Interpretability"
+    ]
+  },
+  "match_info": {
+    "match_score": 2,
+    "matched_strengths": [
+      "Research",
+      "NeurIPS Competition",
+      "AI Agent Experience",
+      "LLM Deployment"
+    ],
+    "highlights": [
+      "Paper published (arXiv:2512.05576), book in publication",
+      "NeurIPS 2025 CureBench Global 2nd Place - AI Agent development",
+      "CureAgent framework, Executor-Analyst architecture, tool-augmented reasoning",
+      "Deployed Ollama, llama.cpp, vllm, TensorRT-LLM, mlc-llm"
+    ]
+  }
+}

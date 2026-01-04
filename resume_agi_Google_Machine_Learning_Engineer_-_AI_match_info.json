@@ -1,0 +1,32 @@
+{
+  "job_info": {
+    "company": "Google",
+    "title": "Machine Learning Engineer - AI Studio",
+    "url": "https://careers.google.com/jobs/results/?q=Machine%20Learning",
+    "location": "Mountain View, CA / Remote",
+    "description": "\n                Work on Google AI Studio to democratize access to AI capabilities.\n                Build tools and infrastructure for AI development.\n                ",
+    "requirements": [
+      "Strong ML engineering skills",
+      "Experience with model serving and inference optimization",
+      "Background in NLP or Computer Vision",
+      "Experience with cloud platforms (GCP)",
+      "Strong Python and system design skills"
+    ],
+    "keywords": [
+      "Machine Learning",
+      "AI Studio",
+      "Model Serving",
+      "GCP",
+      "Inference Optimization"
+    ]
+  },
+  "match_info": {
+    "match_score": 1,
+    "matched_strengths": [
+      "Model Optimization"
+    ],
+    "highlights": [
+      "Quantization (PTQ/QAT), operator fusion, multi-task scheduling"
+    ]
+  }
+}

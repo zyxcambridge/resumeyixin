@@ -1,0 +1,34 @@
+{
+  "job_info": {
+    "company": "Microsoft",
+    "title": "Applied Scientist - Azure AI",
+    "url": "https://careers.microsoft.com/professionals/us/en/search-results?keywords=Azure%20AI",
+    "location": "Redmond, WA / Remote",
+    "description": "\n                Work on Azure AI services to bring AI capabilities to enterprises.\n                Build and optimize large-scale AI systems.\n                ",
+    "requirements": [
+      "MS/PhD in ML, AI, or related field",
+      "Experience with model training and optimization",
+      "Strong background in NLP or Computer Vision",
+      "Experience with distributed training",
+      "Strong Python and ML framework skills"
+    ],
+    "keywords": [
+      "Azure AI",
+      "Model Training",
+      "NLP",
+      "Computer Vision",
+      "Distributed Training"
+    ]
+  },
+  "match_info": {
+    "match_score": 1,
+    "matched_strengths": [
+      "NVIDIA Platforms",
+      "Model Optimization"
+    ],
+    "highlights": [
+      "Deployed on Thor, Orin, Jetson platforms with 4x latency reduction",
+      "Quantization (PTQ/QAT), operator fusion, multi-task scheduling"
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "job_info": {
+    "company": "NVIDIA",
+    "title": "Senior Engineer - Embodied AI / Robotics",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/jobs",
+    "location": "Shanghai, China / Seattle, WA",
+    "description": "\n                Work on Embodied AI and Robotics at NVIDIA.\n                Build AI systems that interact with the physical world.\n                ",
+    "requirements": [
+      "Experience with robotics and embodied AI",
+      "Vision-Language models experience",
+      "Reinforcement learning for robotics",
+      "Experience with Isaac Sim or similar",
+      "Strong background in perception and planning"
+    ],
+    "keywords": [
+      "Embodied AI",
+      "Robotics",
+      "Vision-Language",
+      "Reinforcement Learning",
+      "Isaac Sim",
+      "VLN"
+    ]
+  },
+  "match_info": {
+    "match_score": 4,
+    "matched_strengths": [
+      "Embodied AI",
+      "AI Agent Experience"
+    ],
+    "highlights": [
+      "VLN deployment, 150m long-range navigation, zero-shot generalization",
+      "CureAgent framework, Executor-Analyst architecture, tool-augmented reasoning"
+    ]
+  }
+}

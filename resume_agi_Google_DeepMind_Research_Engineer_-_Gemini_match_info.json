@@ -1,0 +1,39 @@
+{
+  "job_info": {
+    "company": "Google DeepMind",
+    "title": "Research Engineer - Gemini",
+    "url": "https://careers.google.com/jobs/results/?q=Gemini",
+    "location": "Mountain View, CA / London, UK",
+    "description": "\n                Join the Gemini team to build the next generation of multimodal AI models.\n                Work on cutting-edge foundation models.\n                ",
+    "requirements": [
+      "Strong software engineering skills",
+      "Experience with large-scale ML systems",
+      "Experience with JAX, TensorFlow, or PyTorch",
+      "Background in NLP, Computer Vision, or Multimodal AI",
+      "Distributed systems experience"
+    ],
+    "keywords": [
+      "Gemini",
+      "Multimodal",
+      "Foundation Model",
+      "JAX",
+      "Distributed Systems",
+      "NLP"
+    ]
+  },
+  "match_info": {
+    "match_score": 2,
+    "matched_strengths": [
+      "LLM Deployment",
+      "AI Agent Experience",
+      "NVIDIA Platforms",
+      "Model Optimization"
+    ],
+    "highlights": [
+      "Deployed Ollama, llama.cpp, vllm, TensorRT-LLM, mlc-llm",
+      "CureAgent framework, Executor-Analyst architecture, tool-augmented reasoning",
+      "Deployed on Thor, Orin, Jetson platforms with 4x latency reduction",
+      "Quantization (PTQ/QAT), operator fusion, multi-task scheduling"
+    ]
+  }
+}
