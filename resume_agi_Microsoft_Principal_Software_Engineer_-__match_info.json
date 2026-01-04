@@ -1,0 +1,34 @@
+{
+  "job_info": {
+    "company": "Microsoft",
+    "title": "Principal Software Engineer - Copilot",
+    "url": "https://careers.microsoft.com/professionals/us/en/search-results?keywords=Copilot",
+    "location": "Redmond, WA / San Francisco, CA",
+    "description": "\n                Work on Microsoft Copilot to bring AI assistance to millions of users.\n                Build the future of AI-powered productivity tools.\n                ",
+    "requirements": [
+      "Strong software engineering experience",
+      "Experience with LLMs and AI applications",
+      "System design and architecture skills",
+      "Experience with Azure cloud services",
+      "Background in developer tools or productivity software"
+    ],
+    "keywords": [
+      "Copilot",
+      "LLM",
+      "AI Assistant",
+      "Azure",
+      "Developer Tools"
+    ]
+  },
+  "match_info": {
+    "match_score": 1,
+    "matched_strengths": [
+      "AI Agent Experience",
+      "LLM Deployment"
+    ],
+    "highlights": [
+      "CureAgent framework, Executor-Analyst architecture, tool-augmented reasoning",
+      "Deployed Ollama, llama.cpp, vllm, TensorRT-LLM, mlc-llm"
+    ]
+  }
+}

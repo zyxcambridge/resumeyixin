@@ -1,0 +1,39 @@
+{
+  "job_info": {
+    "company": "Microsoft",
+    "title": "Senior Research Scientist - AI Frontiers",
+    "url": "https://careers.microsoft.com/professionals/us/en/search-results?keywords=AGI",
+    "location": "Redmond, WA / Remote",
+    "description": "\n                Join Microsoft Research to work on AI Frontiers and AGI research.\n                Push the boundaries of artificial intelligence.\n                ",
+    "requirements": [
+      "PhD in ML, AI, or related field",
+      "Proven track record of high-impact research",
+      "Experience with large language models",
+      "Publications in NeurIPS, ICML, ICLR, ACL",
+      "Strong theoretical and empirical research skills"
+    ],
+    "keywords": [
+      "AGI",
+      "Research",
+      "LLM",
+      "Foundation Model",
+      "NeurIPS",
+      "Microsoft Research"
+    ]
+  },
+  "match_info": {
+    "match_score": 5,
+    "matched_strengths": [
+      "Research",
+      "NeurIPS Competition",
+      "AI Agent Experience",
+      "LLM Deployment"
+    ],
+    "highlights": [
+      "Paper published (arXiv:2512.05576), book in publication",
+      "NeurIPS 2025 CureBench Global 2nd Place - AI Agent development",
+      "CureAgent framework, Executor-Analyst architecture, tool-augmented reasoning",
+      "Deployed Ollama, llama.cpp, vllm, TensorRT-LLM, mlc-llm"
+    ]
+  }
+}

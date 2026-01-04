@@ -1,0 +1,42 @@
+{
+  "job_info": {
+    "company": "NVIDIA",
+    "title": "Research Scientist - Generative AI",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/jobs",
+    "location": "Santa Clara, CA / Remote",
+    "description": "\n                Join NVIDIA Research to work on Generative AI and Foundation Models.\n                Push the boundaries of AI capabilities.\n                ",
+    "requirements": [
+      "PhD or equivalent experience in ML/AI",
+      "Experience with large-scale model training",
+      "Publications in top-tier venues (NeurIPS, ICML, ICLR)",
+      "Experience with distributed training",
+      "Strong coding skills in Python, PyTorch"
+    ],
+    "keywords": [
+      "Generative AI",
+      "Foundation Model",
+      "Research",
+      "PyTorch",
+      "Distributed Training",
+      "NeurIPS"
+    ]
+  },
+  "match_info": {
+    "match_score": 6,
+    "matched_strengths": [
+      "LLM Deployment",
+      "AI Agent Experience",
+      "Research",
+      "NeurIPS Competition",
+      "NVIDIA Platforms",
+      "Model Optimization"
+    ],
+    "highlights": [
+      "Deployed Ollama, llama.cpp, vllm, TensorRT-LLM, mlc-llm",
+      "CureAgent framework, Executor-Analyst architecture, tool-augmented reasoning",
+      "Paper published (arXiv:2512.05576), book in publication",
+      "NeurIPS 2025 CureBench Global 2nd Place - AI Agent development",
+      "Deployed on Thor, Orin, Jetson platforms with 4x latency reduction"
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "job_info": {
+    "company": "Google",
+    "title": "Software Engineer - AI Agents (Agentic AI)",
+    "url": "https://careers.google.com/jobs/results/?q=AI%20Agent",
+    "location": "Mountain View, CA / New York, NY",
+    "description": "\n                Build AI agents that can reason, plan, and take actions to accomplish user goals.\n                Work on the future of human-AI interaction.\n                ",
+    "requirements": [
+      "Experience building AI agents or autonomous systems",
+      "Strong software engineering fundamentals",
+      "Experience with LLMs and prompt engineering",
+      "Knowledge of reinforcement learning",
+      "Experience with tool use and function calling"
+    ],
+    "keywords": [
+      "AI Agent",
+      "Agentic AI",
+      "LLM",
+      "Reasoning",
+      "Planning",
+      "Tool Use"
+    ]
+  },
+  "match_info": {
+    "match_score": 2,
+    "matched_strengths": [
+      "NeurIPS Competition",
+      "AI Agent Experience",
+      "LLM Deployment"
+    ],
+    "highlights": [
+      "NeurIPS 2025 CureBench Global 2nd Place - AI Agent development",
+      "CureAgent framework, Executor-Analyst architecture, tool-augmented reasoning",
+      "Deployed Ollama, llama.cpp, vllm, TensorRT-LLM, mlc-llm"
+    ]
+  }
+}

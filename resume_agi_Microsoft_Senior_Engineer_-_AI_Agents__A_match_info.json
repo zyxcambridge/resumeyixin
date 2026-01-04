@@ -1,0 +1,37 @@
+{
+  "job_info": {
+    "company": "Microsoft",
+    "title": "Senior Engineer - AI Agents & Autonomous Systems",
+    "url": "https://careers.microsoft.com/professionals/us/en/search-results?keywords=AI%20Agent",
+    "location": "Redmond, WA / San Francisco, CA",
+    "description": "\n                Build AI agents that can autonomously accomplish complex tasks.\n                Work on agentic AI systems for enterprise and consumer applications.\n                ",
+    "requirements": [
+      "Experience with AI agent development",
+      "Strong software engineering skills",
+      "Experience with LLMs and tool integration",
+      "Knowledge of reinforcement learning",
+      "Background in planning and reasoning systems"
+    ],
+    "keywords": [
+      "AI Agent",
+      "Autonomous Systems",
+      "LLM",
+      "Planning",
+      "Reasoning",
+      "Enterprise AI"
+    ]
+  },
+  "match_info": {
+    "match_score": 2,
+    "matched_strengths": [
+      "NeurIPS Competition",
+      "AI Agent Experience",
+      "LLM Deployment"
+    ],
+    "highlights": [
+      "NeurIPS 2025 CureBench Global 2nd Place - AI Agent development",
+      "CureAgent framework, Executor-Analyst architecture, tool-augmented reasoning",
+      "Deployed Ollama, llama.cpp, vllm, TensorRT-LLM, mlc-llm"
+    ]
+  }
+}
